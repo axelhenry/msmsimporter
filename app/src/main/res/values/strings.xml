@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">(M|S)MSImporter</string>
+    <string name="action_settings">Settings</string>
+    <string name="smses">SMSes</string>
+    <string name="mmses">MMSes</string>
+    <string name="elementsNumber" translatable="false">%1$d %2$s.</string>
+    <string name="genericElements" translatable="false">%1$s %2$s…</string>
+    <string name="processedElements">Processed</string>
+    <string name="importingElements">Importing</string>
+    <string name="exportingElements">Exporting</string>
+    <string name="importedElements">Imported</string>
+    <string name="exportedElements">Exported</string>
+    <string name="appPresentation">This application aims to help you importing/exporting your MMSes and/or SMSes into/from your android phone.</string>
+<!--
+    <string name="appPresentation">This application aims to ease the importation of your old MMSes and/or SMSes into your android phone.</string>
+-->
+<!--
+    <string name="launchInstructions">To launch the importation process, just click on the button and select your .tar file</string>
+-->
+    <string name="launchInstructions">To begin, click on import and select your .tar file, or click on export and choose the output location.</string>
+    <!--<string name="noticeInstructions">To do so, if you own a nokia N900, it is recommended to use my other application available @ http://www.qtgp.net .\n However, as long as your .tar file complies with the specifications available @ http://www.google.fr , it should work.</string>-->
+    <string name="noticeInstructions">To do so, if you own a nokia N900, it is recommended to use my other application available @ http://www.qtgp.net .\n However, as long as your .tar file complies with the specifications available @ https://github.com/axelhenry/msmsimporter-archive , the importation process should work.</string>
+    <string name="importCompleted">%1$d %2$s %3$s. %4$d errors.</string>
+    <string name="exportCompleted">%1$d %2$s and %3$d %4$s %5$s to %6$s.</string>
+    <string name="buttonImport">Import M|SMSes</string>
+    <string name="buttonExport">Export M|SMSes</string>
+    <string name="exceptionOccured">An exception occurred during processing, sorry for the inconvenience.</string>
+    <string name="pref_tarGz">Compress archive.</string>
+    <string name="pref_tarGz_notice">Export to compressed archive, should save about 10% space.</string>
+    <string name="pref_debug">Export debug files.</string>
+    <string name="pref_debug_notice">Include debug files when exporting, useful if you\'re encountering errors.</string>
+    <string name="pref_exportTitle">Export options</string>
+    <string name="pref_charsets">Choose used charset.</string>
+    <string name="pref_charsets_notice">Let you choose which charset this application will use to import/export messages. By default, locale charset will be used. However, if some characters are badly displayed, feel free to try one of the others available charsets.</string>
+
+    <string name="array_default">Default locale</string>
+</resources>

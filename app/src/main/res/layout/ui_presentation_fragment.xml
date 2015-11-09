@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeText"
+        android:text="Welcome in (M|S)MSImporter"
+        android:gravity="center"
+        android:textSize="@dimen/police_title"
+        />
+
+    <!--<com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeText"
+        android:text="Welcome in (M|S)MSImporter"
+        android:gravity="center"
+        android:textSize="@dimen/police_title"
+        />-->
+
+<!--    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />-->
+
+    <com.ahenry.msmsimporter.utilities.compatibility.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_big" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainGoalText"
+        android:text="@string/appPresentation"
+        android:textSize="@dimen/police_normal"
+        />
+
+    <!--<com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainGoalText"
+        android:text="@string/appPresentation"
+        android:textSize="14sp"
+        />-->
+
+<!--    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />-->
+
+    <com.ahenry.msmsimporter.utilities.compatibility.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_little" />
+
+<!--    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticeText"
+        android:text="@string/noticeInstructions"
+        android:textSize="12sp"
+        android:textColorLink="@color/accent"
+        android:textColorHighlight="@color/accent"
+        />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticeText"
+        android:text="@string/noticeInstructions"
+        android:textSize="@dimen/police_notice"
+        android:autoLink="web"
+        />
+
+<!--    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticeText"
+        android:text="@string/noticeInstructions"
+        android:textSize="12sp"
+        options:clickableLinks="true"
+        />-->
+
+<!--    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />-->
+
+    <com.ahenry.msmsimporter.utilities.compatibility.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_little" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/launchText"
+        android:text="@string/launchInstructions"
+        android:textSize="@dimen/police_normal"
+        />
+
+<!--    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/launchText"
+        android:text="@string/launchInstructions"
+        android:textSize="14sp"
+        />-->
+
+</LinearLayout>

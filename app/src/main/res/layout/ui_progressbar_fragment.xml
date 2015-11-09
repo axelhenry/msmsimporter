@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/importingElements"
+        android:layout_alignRight="@+id/strut"
+        android:gravity="left"
+        />
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/elementsNumber"
+        android:layout_alignLeft="@+id/strut"
+        android:gravity="right"
+        />
+
+<!--    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:id="@+id/spacePB"
+        android:layout_below="@+id/information"
+        />-->
+
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information"
+        style="@style/NumberProgressBar_Relax_Blue"
+        />
+
+<!--    <com.ahenry.msmsimporter.utilities.compatibility.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_mini"
+        android:layout_below="@+id/progressBar"
+        />-->
+
+<!--    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:layout_below="@+id/progressBar"
+        />-->
+
+</RelativeLayout>

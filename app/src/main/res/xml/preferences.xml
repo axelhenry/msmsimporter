@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <PreferenceCategory
+        android:title="General options">
+        <ListPreference
+            android:key="pref_charsets_list"
+            android:title="@string/pref_charsets"
+            android:summary="@string/pref_charsets_notice"
+            android:defaultValue="1"
+            android:entries="@array/charsetsArray"
+            android:entryValues="@array/charsetsValues"/>
+    </PreferenceCategory>-->
+    <PreferenceCategory
+        android:title="@string/pref_exportTitle">
+        <CheckBoxPreference
+            android:key="pref_useTarGz"
+            android:title="@string/pref_tarGz"
+            android:summary="@string/pref_tarGz_notice"
+            android:defaultValue="false"></CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="pref_includeDebugFiles"
+            android:title="@string/pref_debug"
+            android:summary="@string/pref_debug_notice"
+            android:defaultValue="false"></CheckBoxPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

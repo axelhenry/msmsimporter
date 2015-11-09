@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+        <fragment android:name="com.ahenry.msmsimporter.ui_fragments.UI_Presentation_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/presentationFragment"
+            tools:layout="@layout/ui_presentation_fragment" />
+
+    <!--    <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:id="@+id/space1"
+            android:layout_below="@+id/presentationFragment"
+            />-->
+
+        <com.ahenry.msmsimporter.utilities.compatibility.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_normal"
+            android:id="@+id/space1"
+            android:layout_below="@+id/presentationFragment"
+            />
+
+    <!--    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/launchButton"
+            android:text="@string/buttonLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/space1"
+            />-->
+
+        <fragment android:name="com.ahenry.msmsimporter.ui_fragments.UI_Buttons_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_Buttons"
+            android:layout_below="@+id/space1"
+            tools:layout="@layout/ui_buttons_fragment"
+            />
+
+        <com.ahenry.msmsimporter.utilities.compatibility.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_normal"
+            android:id="@+id/space2"
+            android:layout_below="@+id/fragment_Buttons"
+            />
+
+    <!--    <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:id="@+id/space2"
+            android:layout_below="@+id/fragment_Buttons"
+            />-->
+
+        <fragment android:name="com.ahenry.msmsimporter.ui_fragments.UI_ProgressBars_Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_ProgressBar"
+            android:layout_below="@+id/space2"
+            tools:layout="@layout/ui_progressbars_fragment" />
+
+
+    </RelativeLayout>
+</ScrollView>
