@@ -19,7 +19,7 @@
 -->
     <string name="launchInstructions">To begin, click on import and select your .tar file, or click on export and choose the output location.</string>
     <!--<string name="noticeInstructions">To do so, if you own a nokia N900, it is recommended to use my other application available @ http://www.qtgp.net .\n However, as long as your .tar file complies with the specifications available @ http://www.google.fr , it should work.</string>-->
-    <string name="noticeInstructions">To do so, if you own a nokia N900, it is recommended to use my other application available @ http://www.qtgp.net .\n However, as long as your .tar file complies with the specifications available @ https://github.com/axelhenry/msmsimporter-archive , the importation process should work.</string>
+    <string name="noticeInstructions">To do so, if you own a nokia N900, it is recommended to use my other application available @ https://github.com/axelhenry/msmsexporter-n900.\n However, as long as your .tar file complies with the specifications available @ https://github.com/axelhenry/msmsimporter-archive , the importation process should work.</string>
     <string name="importCompleted">%1$d %2$s %3$s. %4$d errors.</string>
     <string name="exportCompleted">%1$d %2$s and %3$d %4$s %5$s to %6$s.</string>
     <string name="buttonImport">Import M|SMSes</string>
