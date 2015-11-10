@@ -1,5 +1,4 @@
 ## (M|S)MSImporter - Android
- ![logo](https://github.com/axelhenry/msmsimporter-android/raw/master/app/src/main/res/mipmap-xxxhdpi/icon_launcher.png)
 
 ### About
 
