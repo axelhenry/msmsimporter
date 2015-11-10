@@ -7,9 +7,6 @@ This application aims to import/export SMSes and/or SMSes from/to an archive com
 
 ### Installation
 
-- Install it from the [PlayStore]()  
-
-or
 - Install [Android Studio](https://developer.android.com/sdk/index.html).
 - Clone this repo on your computer.
 ```bash
